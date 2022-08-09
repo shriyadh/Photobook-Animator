@@ -1,16 +1,12 @@
-						Homework 8: Shapes Photo Album Part 1
+						
 
-======================================Brief Overview ===========================================================================
+								Brief Overview 
 
 We are making a PhotoAlbum based on instructions passed in by the user. The file parser reads in the instructions from the text file
 and uses an adapter class to make the model based off of it. The new model generated returns a list of Snapshot objects to the controller
 and that is passed on to the View. The view then renders the album based on snapshot information. The view can be graphical or web based.
 
-=================================================================================================================================
-
-
-
-======== PhotoAlbum ========= Main class which would interact with the controller.
+ 						PhotoAlbum - Main class which would interact with the controller.
 
 The entire model portion of the program is run by our singleton class PhotoAlbum. 
 The type Photo album is the singelton class that depicts the canvas/ photo gallery of our
@@ -26,13 +22,13 @@ this class and none of the other classes.
  * The photo album allows the user to reset the gallery.
  * It also tracks the history of commands in the program.
 
-====== IPhotoAlbum =====
+								  IPhotoAlbum  
 
 The interface Photo album contains the contract of methods and attributes that any photo album 
 implementing this class should fulfill. The methods interact with all the other classes in the model implementation and provide the first
 serve interface for users / controller/ view.
 
-===== Snapshot =====
+								 Snapshot 
 
 The Snapshot class creates "selfies" for the photoalbum. The Snapshot depicts the state of the
 album at the time the selfie is taken. It creates a Unique ID and time stamp and maintains a
