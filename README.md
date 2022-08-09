@@ -1,0 +1,2 @@
+# Photobook-Animator
+The Photobook isan application which can be used to create a photo album based on instructions passed in by the user. The file parser reads in the instructions from the text file and uses an adapter class to make the model based off of it. The new model generated returns a list of Snapshot objects to the controller and that is passed on to the View. The view then renders the album based on snapshot information. The view can be graphical or web based.
