@@ -1,0 +1,1 @@
+add > 255 for color class and equals()
